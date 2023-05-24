@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="HTML-forms">
+    <meta name="description" content="trying to replicate a from">
+    <meta name="author" content="Arun">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <fieldset>
+        <legend>Input form</legend>
+
+        <p>
+            Salutation
+            <select name="salutation" id="salutation">
+                <option value="none">--none--</option>
+                <option value="Mrs">Mrs.</option>
+                <option value="Mr.">Mr.</option>
+                <option value="Dr.">Dr.</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="gender">Gender:
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+            </label>
+        </p>
+
+        <p>
+            <label for="first_name">First Name: <input type="text"></label>
+
+        </p>
+
+        <p>
+            <label for="last_name">Last Name: <input type="text"></label>
+        </p>
+
+        <p>
+            <label for="email">E-mail: <input type="email"></label>
+        </p>
+
+        <p>
+            <label for="dob">Date of birth: <input type="date"></label>
+        </p>
+
+        <p>
+            <label for="address">Address:</label>
+            <br>
+            <textarea name="address" id="" cols="30" rows="10"></textarea>
+        </p>
+
+        <p>
+            <button>Submit</button>
+        </p>
+    </fieldset>
+
+</body>
+
+</html>
