@@ -1,0 +1,7 @@
+p[draggable="false"] {
+    color: hotpink;
+}
+
+p[draggable="true"] {
+    color: lawngreen;
+}
