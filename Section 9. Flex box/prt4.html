@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 200px 100px;
+            grid-template-rows: 200px 200px;
+        }
+
+        .first {
+            display: grid;
+            grid-template-rows: 100px 100px;
+
+        }
+
+        .one {
+            border: 5px solid black;
+            background-color: coral;
+        }
+
+        .two {
+            border: 5px solid black;
+            background-color: cyan;
+        }
+
+        .second {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="first">
+            <div class="one">
+                1
+            </div>
+            <div class="two">
+                2
+            </div>
+        </div>
+        <div class="second">
+            <div class="three">
+                3
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <div class="container">
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+        <div class="four">4</div>
+        <div class="five">5</div>
+    </div> -->
+
+</body>
+
+</html>
